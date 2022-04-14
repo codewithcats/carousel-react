@@ -1,0 +1,54 @@
+body {
+  background: #373737;
+  color: white;
+}
+
+header {
+  height: 60px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.slide-item img {
+  width: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+.popupVideo {
+  position: absolute;
+  top: 1000px;
+  left: -1000px;
+  border-radius: 50%;
+  border: 0px solid red;
+  width: 0px;
+  height: 0px;
+}
+.popupVideo .detail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: inherit;
+  background: #ee3d96;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.container {
+  max-width: 96vw;
+}
