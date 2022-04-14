@@ -101,10 +101,6 @@ function CarouselItem(props: CarouselItemProps) {
       });
       $(".popupVideo>.detail").hide();
       $(".popupVideo>.detail").show("1000");
-
-      // setTimeout(() => {
-      //     item_id = true
-      // }, 1500);
     },
     []
   );
